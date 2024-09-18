@@ -1,0 +1,2129 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+nav{
+  background-color: #ffff;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+nav h5{
+  font-weight: 600;
+  color: #F67366;
+}
+
+nav .menu .btn-close{
+  display: none;
+}
+
+nav .menu ul{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+}
+
+nav .menu ul li a{
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+  padding-bottom: 5px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+nav .btn-menu{
+  display: none;
+}
+
+nav .buttons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav .buttons button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+nav .buttons .btn-hire{
+  background: none;
+  border: 1px solid #2C2D5B;
+  
+}
+
+nav .buttons .btn-hire a{
+  text-decoration: none;
+  color: #2C2D5B;
+}
+
+nav .buttons .btn-store{
+  background-color: 
+  #2C2D5B;
+  color: white;
+}
+
+.icon-cart{
+  position: relative;
+}
+
+.icon-cart img{
+  width: 15px;
+}
+
+.icon-cart span{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  font-size: 10px;
+}
+
+.mobile-head{
+  display: none;
+}
+
+.land .banner{
+  background-image: url(./assets/images/landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 200px;
+  padding-left: 700px;
+  padding-right: 0;
+}
+
+.land .banner h1{
+  font-size: 40px;
+  color: white;
+}
+
+.land .banner span{
+  color: 
+  #FF0000;
+}
+
+.land .banner .buttons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.land .banner .buttons button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.land .banner .buttons .enquire{
+  background-color: #FF0000;
+  color: white;
+}
+
+.land .banner .buttons .touch{
+  color: white;
+  background-color: transparent;
+  border: 1px solid 
+  #000000;
+}
+
+.land .services{
+  background-color: 
+  #F4F6F9;
+  padding: 100px;
+  font-family: "Lato", sans-serif;
+}
+
+.land .services .head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.land .services .head img{
+  width: 100px;
+}
+
+.land .services{
+  background-color: 
+  #F4F6F9;
+  padding: 70px 100px;
+}
+
+.land .services .head h2 span{
+  border-bottom: 2px solid #FF0000;
+}
+
+.land .services .offers{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.land .services .offers article{
+  color: 
+  #2C2D5B;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.land .services .offers article img{
+  width: 30px;
+}
+
+.land .services .offers article h3{
+  font-size: 17px;
+}
+
+.land .services .offers article p{
+  color: #4F4F4F;
+  font-size: 12px;
+}
+
+.land .services .buttons{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.land .services .buttons button{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.land .services .buttons .btn-req{
+  background: none;
+  border: 1px solid #2C2D5B;
+}
+
+.land .services .buttons .btn-req a{
+  color: #2C2D5B;
+  text-decoration: none;
+}
+
+.land .services .buttons .btn-shop{
+  background-color: #2C2D5B;
+  color: white;
+}
+
+.land .services .buttons .btn-shop a{
+  text-decoration: none;
+  color: white;
+}
+
+.operation-container {
+  padding: 30px 100px 30px 250px;
+  font-family: "Lato", sans-serif;
+}
+
+.operation-container .head{
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 30px;
+}
+
+.operation-container .head h2{
+  color: 
+  #141414;
+}
+
+.operation-container .head h2 span{
+  font-weight: bold;
+  border-bottom: 2px solid 
+  #F67366;
+}
+
+.operation-container .head img{
+  width: 150px;
+}
+
+.operation-container .operations{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.operation-container .operations .operation{
+  display: flex;
+  justify-content: space-between;
+}
+
+.operation-container .operations .quote{
+  flex-direction: row-reverse;
+}
+
+.operation-container .operations .operation .text{
+  width: 400px;
+}
+
+.operation-container .operations .operation .text div{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.operation-container .operations .operation .text img{
+  width: 30px;
+}
+
+.operation-container .operations .operation .text h1{
+  color: #F67366;
+}
+
+.operation-container .operations .operation .text p{
+  font-size: 14px;
+  color: 
+  #4F4F4F;
+}
+
+.operation-container .operations .operation .image-container img{
+  width: 450px;
+}
+
+.faqs-container{
+  padding: 100px 160px;
+}
+
+.faqs-container h1{
+  margin-bottom: 30px;
+  font-family: "Lato", sans-serif;
+  border-bottom: 2px solid #F67366;
+  padding: 10px;
+  width: 100px;
+  color: 
+  #141414;
+}
+
+.faqs{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Two columns with equal width */
+  gap: 10px
+}
+
+.faq{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  color: 
+  #53686A;
+}
+
+.faq img{
+  width: 30px;
+}
+
+.faq p{
+  font-size: 13px;
+}
+
+.ques{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: 
+  #2F2E41;
+  padding: 20px;
+}
+
+.ques button{
+  background-color: #53686A;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ques button a{
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-header{
+  display: none;
+}
+
+.banner{
+  background-image:url(./assets/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 200px;
+  padding-left: 800px;
+  padding-right: 0;
+}  
+
+.banner h1{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.banner h1 span{
+  color: #FF0000;
+}
+
+.banner .buttons{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.banner .buttons button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+.banner .buttons .btn-enquire{
+  background-color: #FF0000;
+  color: white;
+}
+
+.banner .buttons .btn-shop{
+  background-color: transparent;
+  border: 1px solid #000000;
+  color:  #FF0000;
+}
+
+.additions h1{
+  text-align: center;
+  margin: 50px ;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.products .product{
+  background-color: #ffff;
+  padding: 20px;
+  box-shadow: rgba(20, 19, 19, 0.25) 1.95px 1.95px 2.6px;
+  width: 260px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  transition: transform .2s ease, background-color .2s ease;
+}
+
+.products .product:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+.products .product .profile{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products .product .profile img{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.products .product .profile h3{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.products .product .proceed{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-cart{
+  background-color: #2C2D5B;
+  border: none;
+  border-radius: 10px;
+  color: #ffff;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  display: flex;
+  transition: background-color .4s ease-in-out;
+}
+
+.btn-cart:hover{
+ filter: brightness(85%);
+  cursor: pointer;
+}
+
+.btn-cart .cart{
+  width: 15px;
+  background-color: #ffff;
+  border-radius: 50%;
+  padding: 2px 2px 2px 1px;
+}
+
+.btn-cart img{
+  width: 10px;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+
+.pagination button{
+  background-color: transparent;
+  border: 1px solid #2C2D5B;
+  padding: 10px;
+  width: 100px;
+  color: #2C2D5B;
+  border-radius: 5px;
+  transition: background-color .4s ease-in-out, color .4s ease-in-out, border .4s ease-in-out;
+}
+
+.pagination button:hover{
+  cursor: pointer;
+  background-color: #2C2D5B;
+  color: #FFFFFF;
+  border: none;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 170px 80px 220px;
+  background-color: #ffff;
+}
+
+.content h1{
+  font-size: 40px;
+}
+
+.content .get{
+  background-color: #2C2D5B;
+  color: #ffff;
+  padding: 30px 100px 40px 30px;
+  width: 420px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+}
+
+.content .get h2{
+  margin-bottom: 25px;
+}
+
+.content .get .email{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ffff;
+}
+
+.content .get .email input{
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 5px;
+}
+
+.content .get .email input::placeholder{
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.content .get .email img{
+  width: 15px;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #2C2D5B;
+  color: #ffff;
+  padding: 50px;
+}
+
+footer .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+footer .footer-content .logo{
+  font-weight: 600;
+}
+
+footer .footer-content article h4{
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+footer .footer-content article p{
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+
+}
+
+footer .about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .about ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+footer .about ul li{
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+footer .about ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .socials{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+footer .socials img{
+  width: 15px;
+  cursor: pointer;
+}
+
+footer .socials .facebook{
+  width: 10px;
+}
+
+/* Spinner.css */
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 8px solid #2C2D5B;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 300px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.cart-container{
+  padding: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart article{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-items{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-items .cart-item{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #909090;
+  width: 500px;
+}
+
+.cart-items .cart-item img{
+  width: 200px;
+}
+
+.cart-items .cart-item .product-info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-items .cart-item .proceed{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-items .cart-item button{
+  background: none;
+  border: none;
+  font-size: 12px;
+  border-bottom: 1px solid #909090;
+}
+
+.order{
+  width: 400px;
+  padding: 20px ;
+}
+
+.order h2{
+  margin-bottom: 30px;
+}
+
+.order input{
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+}
+
+.order .sub-total{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.order .ship{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000000 ;
+}
+
+.order .total-price{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.order button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #000000;
+}
+
+.product-detail{
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+}
+
+.product-detail .main-image img {
+  width: 500px;
+  height: 500px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+
+
+.product-detail .thumbnails {
+  display: flex;
+  justify-content: center;
+}
+
+.product-detail .thumbnails img {
+  width: 80px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+  border-radius: 10px;
+}
+
+.product-detail .thumbnails .nav-button{
+  /*width: 100px;
+  height: 100px;*/
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+}
+
+.product-detail .thumbnails .nav-button img{
+  width: 50px;
+}
+
+.product-detail .thumbnails img.active {
+  border: 2px solid #2C2D5B;
+}
+
+.product-detail .text h1{
+  margin-bottom: 20px;
+}
+
+.product-detail .text p{
+  margin-bottom: 20px;
+  color: 
+  #909090;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.checkout-page{
+  padding: 50px 100px;
+  
+}
+
+.checkout{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkout p{
+  font-size: 13px;
+  color: #4F4F4F;
+}
+
+.checkout p a{
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.details{
+  width: 500px;
+
+}
+
+.details form{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+}
+
+.details form h5{
+  margin-bottom: 20px;
+}
+
+.details form .form-groups{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.details form .form-groups .group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.details form .form-groups .group input{
+  width: 210px;
+  border: 1px solid #B2BCCA;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+
+.details form .form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.details form .form-group input{
+  border: 1px solid #B2BCCA;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+
+.abeg{
+  margin-top: 10px;
+}
+
+.details form .grouped{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.method{
+  margin-top: 20px;
+}
+
+
+label{
+  font-size: 12px;
+  color: #828282;
+}
+
+.payment-methods {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.move{
+  margin-top: 20px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.payment-option:last-child {
+  margin-bottom: 0;
+}
+
+.payment-label {
+  margin-left: 10px;
+}
+
+.card-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card-icons img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.coming-soon {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.crypto-options {
+  margin-top: 20px;
+}
+
+.crypto-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.crypto-option:last-child {
+  margin-bottom: 0;
+}
+
+.crypto-label {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.crypto-label img {
+  width: 30px;
+  height: 30px;
+}
+
+.summary{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.summary h5{
+  margin-bottom: 20px;
+}
+
+.summary .info{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid 
+  #E0E0E0;
+}
+
+.summary .info .form-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.summary .info .form-group span{
+  color: 
+  #4F4F4F;
+}
+
+.summary .total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.summary .total label{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.comment{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.checkout-page .privacy{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.privacy a{
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+
+
+
+
+.summary input{
+  border: 1px solid #B2BCCA;
+  padding: 20px;
+}
+
+.summary input::placeholder{
+  color: #B2BCCA;
+}
+
+.summary button{
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.confirm{
+  background-color: rebeccapurple;
+  height: 300px;
+  width: 300px;
+}
+
+/* Add styles for the .crypto-details div */
+.crypto-details {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 370px;
+}
+
+.crypto-details .head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.crypto-details .head h5 {
+  margin-right: 10px;
+}
+
+.crypto-details .head img {
+  width: 30px;
+  height: 30px;
+}
+
+.crypto-details .qr-container {
+  text-align: center;
+}
+
+.crypto-details .qr-img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.crypto-details .crypto-payment-details {
+  margin-top: 20px;
+}
+
+.crypto-details .crypto-payment-details h5 {
+  margin-bottom: 10px;
+}
+
+.crypto-details .crypto-payment-details article {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.crypto-details .crypto-payment-details article p{
+  font-size: 13px;
+}
+
+.crypto-details .crypto-payment-details .copy {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.crypto-details .crypto-payment-details .copy p {
+  margin-right: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  overflow: hidden; /* Hide overflow if the content still overflows */
+}
+
+.crypto-details .crypto-payment-details .copy button {
+  background: none;
+  border: none;
+}
+
+.crypto-details .crypto-payment-details .copy button  img{
+  width: 15px;
+}
+
+.crypto-details .btn-made{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: white;
+  background-color: #000000;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.crypto-details .timer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crypto-details .timer span{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* PrivacyPolicyPage.css */
+
+.privacy {
+  padding: 20px;
+}
+
+.privacy-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.privacy-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.privacy-header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.privacy-section {
+  margin-bottom: 30px;
+}
+
+.privacy-section h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.privacy-section h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.privacy-section p,
+.privacy-section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.privacy-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.privacy-footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.privacy-footer h2 {
+  font-size: 1.8rem;
+}
+
+.privacy-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.privacy-footer ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.terms-container {
+  padding: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.terms-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.terms-container h2 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #34495e;
+}
+
+.terms-container p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.terms-container ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.terms-container ul li {
+  margin-bottom: 10px;
+}
+
+.about-us-page {
+  line-height: 1.6;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-page ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.about-us-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-us-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about-us-section {
+  margin-bottom: 40px;
+}
+
+.about-us-section h2 {
+  font-size: 2rem;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-us-section p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.about-us-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-us-section li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.about-us-section strong {
+  color: #333;
+}
+
+.about-us-values{
+  margin-top: 20px;
+}
+
+/* Floating chat button */
+.floating-chat-button {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.floating-chat-window {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 340px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(100%); /* Start off-screen */
+  opacity: 0;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out; /* Transition properties */
+}
+
+.floating-chat-window.open {
+  transform: translateY(0); /* Slide into view */
+  opacity: 1;
+}
+
+.floating-chat-window.closed {
+  transform: translateY(100%); /* Slide out of view */
+  opacity: 0;
+}
+
+
+
+.chat-header {
+  background: #007bff;
+  padding: 15px;
+  color: white;
+  display: flex;
+}
+
+.chat-header .profile{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  color: #6C63FF;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.chat-header h3{
+  margin-bottom: 10px;
+}
+
+.chat-header p{
+  font-size: 13px;
+}
+
+.chat-header span{
+  background-color: #cbdaf1;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% ;
+}
+
+.chat-header span img{
+  width: 20px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+ /* Full height to ensure it fills the screen */
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background-color: #fff; /* White background for chat container */
+}
+
+.chat-box {
+  flex-grow: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-sender{
+  font-size: 13px;
+}
+
+.message {
+  max-width: 70%;
+  padding: 12px 18px;
+  margin: 5px 0;
+  border-radius: 10px;
+  word-wrap: break-word;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+  font-size: 14px;
+  line-height: 1.4; /* Improved line height for readability */
+}
+
+.my-message {
+  background-color: #007bff;
+  color: white;
+  margin-left: auto;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.other-message {
+  background-color: #eaeaea;
+  color: black;
+  margin-right: auto;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.message-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.my-message + .message-timestamp {
+  text-align: right;
+  align-self: flex-end;
+  font-size: 12px;
+  color: #6c757d; /* Lighter color for timestamp */
+}
+
+.other-message + .message-timestamp {
+  text-align: left;
+  align-self: flex-start;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.chat-container form {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ccc;
+  position: sticky;
+  bottom: 0;
+}
+
+.chat-container form input {
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  flex-grow: 1;
+  font-size: 14px;
+  margin-right: 10px;
+  background-color: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.chat-container form input:focus {
+  border-color: #007bff;
+}
+
+.chat-container form button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container form button img {
+  width: 20px;
+  height: 20px;
+}
+
+.user-details-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.user-details-form input{
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.user-details-form .first-message{
+  padding-bottom: 90px;
+}
+
+.user-details-form button{
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  font-family: "Inter", sans-serif;
+}
+
+* Target the form inside the admin chat specifically */
+.admin-chat-container .chat-box form {
+  display: flex;
+  padding: 15px;
+  background-color: #f1f1f1;  /* Light background to distinguish from chat */
+  border-top: 1px solid #ccc;  /* Separate from message area */
+  align-items: center;
+}
+
+/* Input field inside admin chat form */
+.admin-chat-container .chat-box form input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;  /* Thin border */
+  border-radius: 20px;  /* Rounded corners for better aesthetics */
+  outline: none;  /* Remove default focus outline */
+  font-size: 14px;
+}
+
+/* Input focus state */
+.admin-chat-container .chat-box form input:focus {
+  border-color: #007bff;  /* Blue border on focus */
+}
+
+/* Submit button inside admin chat form */
+.admin-chat-container .chat-box form button {
+  background-color: #007bff;  /* Primary blue button color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;  /* Circular button */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon inside the button */
+.admin-chat-container .chat-box form button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Button hover effect */
+.admin-chat-container .chat-box form button:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;  /* Full height of the chat box */
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #007bff;  /* Spinner color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width:767px){
+
+  nav{
+    padding: 25px;
+  }
+
+  nav h5{
+    font-size: 20px;
+  }
+
+  nav .menu{
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    z-index: 2;
+    background-color: #F4F6F9;
+    padding: 35px;
+    transition: right .5s ease-in-out;
+  }
+
+  nav .menu.open{
+    right: 0;
+  }
+
+  nav .menu .btn-close{
+    border: none;
+    background: none;
+    display: block;
+  }
+
+  nav .menu .btn-close img{
+    width: 40px;
+  }
+
+  nav .menu ul{
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+
+  nav .menu ul li a{
+    font-size: 20px;
+    color: #000000;
+  }
+
+  nav .btn-menu{
+    border: none;
+    background: none;
+    display: block;
+  }
+
+  nav .btn-menu img{
+    width: 25px;
+  }
+
+  nav .buttons{
+    display: none;
+  }
+
+  nav .icons{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+
+  nav .icon-cart img{
+     width: 25px;
+  }
+
+  .mobile-head{
+    padding: 30px;
+    display: block;
+  }
+
+  .mobile-head h1{
+    color: 
+    #141414;
+    margin-bottom: 20px;
+  }
+
+  .mobile-head h1 span{
+    color: #FF0000;
+  }
+
+  .mobile-head p{
+    font-size: 13px;
+    color: 
+    #333333;
+    margin-bottom: 20px;
+  }
+
+  .mobile-head .buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .mobile-head .buttons button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .mobile-head .buttons enquire{
+    background: none;
+    border: 1px solid #2C2D5B;
+    color: #2C2D5B;
+  }
+
+  .mobile-head .buttons .touch{
+    background-color: 
+    #2C2D5B;
+    color: white;
+  }
+
+  .land .banner{
+    height: 32vh;
+    padding: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .land .banner h1{
+    display: none;
+  }
+
+  .land .banner .buttons{
+    display: none;
+  }
+
+  .land .services{
+    padding: 60px 20px;
+  }
+
+  .land .services .head{
+    margin-bottom: 50px;
+  }
+
+  .land .services .offers{
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 80px;
+    gap: 50px;
+  }
+
+  .land .services .offers article{
+    width: 100%;
+  }
+
+  .land .services .offers article h3{
+    font-size: 20px;
+  }
+
+  .land .services .offers article P{
+    font-size: 14px;
+  }
+
+  .operation-container{
+    padding: 20px;
+  }
+
+  .operation-container .head{
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin-bottom: 80px;
+  }
+
+  .operation-container .head h2{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .operation-container .operations .operation{
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+  }
+
+  .operation-container .operations .operation .text{
+    width: 100%;
+  }
+
+  .operation-container .operations .operation .text div{
+    gap: 10px;
+  }
+
+  .operation-container .operations .operation .image-container img{
+    width: 100%;
+  }
+
+  .faqs-container{
+    padding: 30px 50px;
+  }
+
+  .faqs{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .faq{
+    width: 100%;
+  }
+
+  .ques{
+    flex-direction: column;
+    justify-content: start;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .ques button{
+    background-color: 
+    #FE9C69;
+  }
+
+  .mobile-header{
+    padding: 30px;
+    display: block;
+    text-align: center;
+  }
+
+  .mobile-header h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2F2E41;
+  }
+
+  .mobile-header h1 span{
+    color: #FF0000;
+  }
+
+  .mobile-header .buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .mobile-header .buttons button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .mobile-header .buttons .btn-enquire{
+    background-color: #FF0000;
+    color: white;
+  }
+
+  .mobile-header .buttons .btn-shop{
+    background-color: transparent;
+    border: 1px solid #000000;
+    color:  #FF0000;
+  }
+
+  .banner{
+    height: 32vh;
+    padding: 0;
+    padding-left: 0;
+  }
+
+  .banner h1{
+    display: none;
+  }
+
+  .banner .buttons{
+    display: none;
+  }
+
+  .products .product{
+    height: auto;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .products .product .profile img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .products .product .info{
+    margin-bottom: 20px;
+  }
+
+  .content{
+    flex-direction: column;
+    padding: 0;
+}
+
+.content h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.content .get{
+    padding: 0;
+    width: 90%;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.content .get h2{
+    text-align: center;
+}
+
+footer{
+    padding: 30px;
+}
+
+footer .footer-content{
+    flex-direction: column;
+}
+
+footer .footer-content .logo{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+footer .about{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+footer .about ul{
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+footer .about ul li{
+    font-size: 16px;
+}
+
+footer .socials{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container{
+  padding: 20px;
+  flex-direction: column;
+  justify-content: start;
+  gap: 50px;
+}
+
+.cart article{
+  margin-bottom: 50px;
+}
+
+.cart-items .cart-item{
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.order{
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.product-detail{
+  flex-direction: column;
+  padding: 30px;
+}
+
+.product-detail .main-image img{
+  width: 100%;
+  height: 300px;
+}
+
+.product-detail .thumbnails img {
+  width: 50px;
+  height: 50px;
+}
+
+.product-detail .thumbnails .nav-button{
+  width: 50px;
+  height: 50px;
+}
+
+.checkout-page{
+  padding: 30px;
+}
+
+.checkout{
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.checkout p{
+  font-size: 12px;
+}
+
+.container{
+  flex-direction: column;
+  justify-content: start;
+  gap: 50px;
+}
+
+.details{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.details form .form-groups{
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.details form .form-groups .group input{
+  width: 250px;
+}
+
+.details form .form-group input{
+  width: 100%;
+}
+
+.checkout-page .privacy{
+  margin-bottom: 0;
+  align-items: start;
+  font-size: 12px;
+}
+
+.payment-methods{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.summary{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.crypto-details{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.chat-container {
+  border-radius: 0; /* Remove rounded corners on small screens */
+}
+
+.chat-box {
+  padding: 30px;
+}
+
+.message {
+  max-width: 85%; /* Make the messages take more space on mobile */
+}
+
+.chat-container form {
+  padding: 10px;
+}
+
+.chat-container form input {
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+
+}
+
